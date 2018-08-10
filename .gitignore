@@ -1,5 +1,6 @@
-AUTHORS
-ChangeLog
-kolla_ansible.egg-info/SOURCES.txt
-kolla_ansible.egg-info/pbr.json
+.AUTHORS
+.ChangeLog
+.kolla_ansible.egg-info/SOURCES.txt
+.kolla_ansible.egg-info/pbr.json
+
 dist/
