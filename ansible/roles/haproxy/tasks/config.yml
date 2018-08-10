@@ -31,7 +31,7 @@
     - "{{ node_custom_config }}/haproxy/{{ inventory_hostname }}/haproxy.cfg"
     - "{{ node_custom_config }}/haproxy/haproxy.cfg"
     - "haproxy.cfg.j2"
-
+  tags: test
 - name: Copying over keepalived.conf
   template:
     src: "{{ item }}"

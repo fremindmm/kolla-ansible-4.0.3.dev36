@@ -1,5 +1,6 @@
 ---
 - include: config.yml
+  tags: test
 
 - include: bootstrap_mons.yml
   when: inventory_hostname in groups['ceph-mon']

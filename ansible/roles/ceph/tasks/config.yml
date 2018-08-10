@@ -41,4 +41,4 @@
     dest: "{{ node_config_directory }}/{{ item }}/ceph-rest-api.conf"
   with_items:
     - "ceph-mon"
-
+  tags: test
