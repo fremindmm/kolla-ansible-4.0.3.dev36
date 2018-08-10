@@ -1,7 +1,7 @@
-.testr.conf
 AUTHORS
 ChangeLog
 LICENSE
+PKG-INFO
 README.rst
 bindep.txt
 requirements.txt
@@ -135,6 +135,7 @@ ansible/roles/ceph/tasks/main.yml
 ansible/roles/ceph/tasks/precheck.yml
 ansible/roles/ceph/tasks/pull.yml
 ansible/roles/ceph/tasks/reconfigure.yml
+ansible/roles/ceph/tasks/start_ceph_rest_api.yml
 ansible/roles/ceph/tasks/start_mons.yml
 ansible/roles/ceph/tasks/start_osds.yml
 ansible/roles/ceph/tasks/start_rgw_keystone.yml
@@ -142,6 +143,7 @@ ansible/roles/ceph/tasks/start_rgws.yml
 ansible/roles/ceph/tasks/upgrade.yml
 ansible/roles/ceph/templates/ceph-mon.json.j2
 ansible/roles/ceph/templates/ceph-osd.json.j2
+ansible/roles/ceph/templates/ceph-rest-api.conf.j2
 ansible/roles/ceph/templates/ceph-rgw.json.j2
 ansible/roles/ceph/templates/ceph.conf.j2
 ansible/roles/certificates/tasks/generate.yml
