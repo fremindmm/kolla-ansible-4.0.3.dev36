@@ -22,3 +22,4 @@
     - {'interface': 'admin', 'url': '{{ swift_admin_endpoint }}'}
     - {'interface': 'internal', 'url': '{{ swift_internal_endpoint }}'}
     - {'interface': 'public', 'url': '{{ swift_public_endpoint }}'}
+  when: enable_ceph_rgw_keystone == "yes"
